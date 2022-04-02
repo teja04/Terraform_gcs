@@ -1,5 +1,5 @@
 module "gcs_bucket" {
-  source = "/home/kotaabhinav_viswateja_ctr/Dataflow"
+  source = "../"
   project_id  = var.project_id
   prefix = var.prefix
   bucket_lists = var.bucket_lists
